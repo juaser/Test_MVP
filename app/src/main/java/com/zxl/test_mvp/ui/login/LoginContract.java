@@ -1,8 +1,9 @@
 package com.zxl.test_mvp.ui.login;
 
-import com.zxl.test_mvp.base.BaseModel;
-import com.zxl.test_mvp.base.BasePresenter;
-import com.zxl.test_mvp.base.BaseView;
+
+import com.zxl.test_mvp.ui.base.BaseModel;
+import com.zxl.test_mvp.ui.base.BasePresenter;
+import com.zxl.test_mvp.ui.base.BaseView;
 
 /**
  * @类说明：

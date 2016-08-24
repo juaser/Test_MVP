@@ -4,7 +4,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.zxl.test_mvp.R;
-import com.zxl.test_mvp.base.BaseActivity;
+import com.zxl.test_mvp.ui.base.BaseActivity;
 import com.zxl.test_mvp.ui.login.LoginContract;
 import com.zxl.test_mvp.ui.login.LoginModel;
 import com.zxl.test_mvp.ui.login.LoginPresenter;
@@ -26,11 +26,6 @@ public class LoginActivity extends BaseActivity<LoginPresenter, LoginModel> impl
     @Override
     public int getLayoutId() {
         return R.layout.activity_login;
-    }
-
-    @Override
-    public void initView() {
-
     }
 
     @Override
