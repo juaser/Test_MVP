@@ -1,8 +1,6 @@
 package com.zxl.test_mvp.ui;
 
-import android.os.Bundle;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.zxl.test_mvp.R;
@@ -12,7 +10,6 @@ import com.zxl.test_mvp.ui.login.LoginModel;
 import com.zxl.test_mvp.ui.login.LoginPresenter;
 
 import butterknife.Bind;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
@@ -44,13 +41,6 @@ public class LoginActivity extends BaseActivity<LoginPresenter, LoginModel> impl
     @Override
     public void failed() {
         Toast.makeText(this, "失败", Toast.LENGTH_SHORT).show();
-    }
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        // TODO: add setContentView(...) invocation
-        ButterKnife.bind(this);
     }
 
     @OnClick(R.id.submit)
