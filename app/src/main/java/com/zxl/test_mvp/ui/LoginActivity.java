@@ -25,8 +25,6 @@ public class LoginActivity extends BaseActivity<LoginPresenter, LoginModel> impl
     EditText username;
     @Bind(R.id.userpassword)
     EditText userpassword;
-    @Bind(R.id.submit)
-    TextView submit;
 
     @Override
     public int getLayoutId() {
